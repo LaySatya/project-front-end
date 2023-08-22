@@ -1,0 +1,918 @@
+.container-full{
+    width: 100%;
+    height: 80px;
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+}
+.container-full .header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.container-full .header .logo{
+    width: 15%;
+    height: 100%;
+    /*background-color: green;*/
+    margin-left: 5%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-full .header .logo h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    color: white; 
+}
+.container-full .header .logo h1 span{
+    color: orange;
+}
+.container-full .header .menu{
+    width: 55%;
+    /*height: 88%;*/
+    /*background-color: green;*/
+    margin-left: 8%;
+    float: left;
+    margin-top: 9px;
+    display: block;
+}
+.container-full .header .menu ul{
+    list-style-type: none;  
+}
+.container-full .header .menu ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.container-full .header .menu ul li a{
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+    font-size: 18px;
+    overflow: hidden;
+    font-family: "Oswald", sans-serif;
+    display: block;
+    transform: translateY(-30px);
+}
+.container-full .header .menu ul li a:hover{
+    opacity: 0.8;
+    text-decoration: underline brown;
+}
+.container-full .header .icon{
+    width: 10%;
+    height: 90%;
+    /*background-color: green;*/
+    float: left;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon .fa-solid{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.icon .fa-solid:hover{
+    cursor: pointer;
+}
+.icon .fa-bars{
+    display: none;
+}
+.middle-container{
+    width: 100%;
+    height: 700px;
+    background-image: url('test1.jpg');
+    background-size: 100%;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.middle-container .icon1{
+    width: 50px;
+    height: 50px;
+    /*background-color: red;*/
+    float: left;
+    margin-top: 300px;
+    transform: translateX(50px);
+    margin-left: 90%;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.7s;
+} 
+.middle-container .icon1:hover{
+    
+    opacity: 1;
+}
+.middle-container .icon1 span{
+    color: white;
+}
+.middle-container .icon2{
+    width: 50px;
+    height: 50px;
+    /*background-color: red;*/
+    float: left;
+    margin-top: 300px;
+    transform: translateX(-1350px);
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+.middle-container .icon2:hover{
+    opacity: 1;
+}
+.middle-container .icon2 span{ 
+    color: white;
+}
+.middle-container .icon1 .material-symbols-outlined{
+    font-size: 40px;
+}
+.middle-container .icon2 .material-symbols-outlined{
+    font-size: 40px;
+}
+.middle-container .change{
+    width: 150px;
+    height: 40px;
+    /*background-color: red;*/
+    float: left;
+    margin: auto;
+    transform: translateY(220px);
+    margin-left:45%; 
+}
+.middle-container .change .ch1{
+    width: 45px;
+    height: 7px;
+    background-color: white;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(.85);
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.middle-container .change .ch1:hover{
+    opacity: 1;
+    transform: scale(.97);
+}
+.selling-ads{
+    width: 100%;
+    height: 800px;
+    /*background-color: red;*/
+    float: left;
+}
+.selling-ads .Title{
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+.selling-ads .Title p{
+    text-align: center;
+    font-size: 20px;
+}
+.selling-ads .Title h1{
+    text-align: center;
+    font-size: 45px;
+}
+.selling-ads .shoes-selling{
+    width: 80%;
+    height: 400px;
+    /*background-color: grey;*/
+    margin: auto;
+}
+.selling-ads .shoes-selling .pic{
+    width: 23%;
+    height:75%;
+    box-shadow: 0px 0px 5px 2px grey;
+    float: left;
+    margin-left: 2%;
+}
+.selling-ads .shoes-selling .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.selling-ads .shoes-selling .pic h1{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.selling-ads .shoes-selling .pic h1 a{
+    text-decoration: none;
+    color: red;
+}
+.selling-ads .ads{
+    width: 98%;
+    height: 300px;
+    background-image: url('ads1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: translateY(428px);
+    box-shadow: 0px 0px 1px 1px grey;
+    margin-left: 2%;
+}
+.iconslider{
+    width: 150px;
+    height: 20px;
+    /*background-color: red;*/
+    margin: auto;
+    transform: translateY(435px);
+}
+.iconslider .i{
+    width: 18px;
+    height: 18px;
+    background-color: whitesmoke;
+    float: left;
+    border-radius: 50%;
+    margin-left: 20px;
+    box-shadow: 0px 0px 2px 1px grey;
+    cursor: pointer;
+}
+.iconslider .i:hover{
+    opacity: 0.5;
+    background-color: grey;
+
+}
+.content1{
+    width: 80%;
+    height: 850px;
+    /*background-color: green;*/
+    float: left;
+    margin-top: 200px;
+    margin-left: 10%;
+}
+.content1 .content-tittle{
+    width: 40%;
+    height: 60px;
+    background-color: white;
+    margin-left: 20px;
+}
+.content1 .content-tittle h1{
+    font-size: 30px;
+    color: black;
+}
+.content1 .content-selling{
+    width: 100%;
+    height: 750px;
+    /*background-color: red;*/
+    float: left;
+}
+.content1 .content-selling .fashion1{
+    width: 100%;
+    height: 340px;
+    /*background-color: green;*/
+    float: left;
+    margin-top: 20px;
+}
+.content1 .content-selling .fashion1 .f1{
+    width: 22%;
+    height: 73%;
+    float: left;
+    margin-left: 20px;
+
+    
+}
+.content1 .content-selling .fashion1 .f1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.content1 .content-selling .fashion1 .f1 h1{
+    font-size: 20px;
+    text-align: center;
+}
+.content1 .content-selling .fashion1 .f1 p{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.fa-solid{
+    color: yellow;
+}
+.fa-regular{
+    color: yellow;
+}
+.electric-selling{
+    width: 80%;
+    height: 1000px;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 10%;
+}
+.electric-selling .electric-tittle{
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    margin-left: 20px;
+}
+.electric-selling .electric-tittle h1{
+    font-size: 35px;
+    color: black;
+}
+.electric-selling .content-electric{
+    width: 100%;
+    height: 200px;
+    /*background-color: wheat;*/
+    float: left;
+    margin-top: 20px;
+}
+.electric-selling .content-electric .e1{
+    width: 31%;
+    height: 100%;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 25px;
+}
+.content-electric .e1 .image{
+    width: 40%;
+    height: 100%;
+    float: left; 
+    /*background-color: red;*/
+}
+.content-electric .e1 .price{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*background-color: red;*/
+    margin-left: 20px;
+}
+.electric-selling .content-electric .e1 .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-electric .e1 .price h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25%;
+}
+.content-electric .e1 .price p{
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.content1-electric{
+    width: 100%;
+    height: 350px;
+    /*background-color: pink;*/
+    float: left;
+}
+.content1-electric .left-content{
+    width: 49%;
+    height: 100%;
+    /*background-color: green;*/
+    float: left;
+    box-shadow: 0px 0px 5px 2px grey;
+}
+.content1-electric .right-content{
+    width: 49%;
+    height: 100%;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 2%;
+    box-shadow: 0px 0px 5px 2px grey;
+}
+.content1-electric .left-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.6s;
+}
+.content1-electric .left-content img:hover{
+    transform: scale(.95);
+}
+.content1-electric .right-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.6s;
+}
+.content1-electric .right-content img:hover{
+    transform: scale(.95);
+}
+.lastshoes-selling{
+    width: 80%;
+    height: 600px;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 10%;
+}
+.lastshoes-selling .shoes-tittle{
+    width: 50%;
+    height: 60px;
+    background-color:  white;
+    margin-left: 20px;
+}
+.lastshoes-selling .shoes-tittle h1{
+    font-size: 35px;
+}
+.lastshoes-selling .pro1{
+    width: 100%;
+    height: 300px;
+    /*background-color: pink;*/
+    float: left;
+}
+.lastshoes-selling .pro1 .s1{
+    width: 49%;
+    height: 100%;
+    float: left;
+    margin-left: 0.5%;
+    /*background-color: goldenrod;*/
+}
+.lastshoes-selling .pro1 .s1 .value{
+    width: 40%;
+    height: 100%;
+    /*background-color: red;*/
+    float: left;
+}
+.lastshoes-selling .pro1 .s1 .value h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40%;
+}
+.lastshoes-selling .pro1 .s1 .value p{
+    font-size: 16px;
+    text-align: center;
+}
+.lastshoes-selling .pro1 .s1 .sh{
+    width: 55%;
+    height: 100%;
+    /*background-color: red;*/
+    margin-left: 20px;
+    float: left;
+}
+.lastshoes-selling .pro1 .s1 .sh img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.watch{
+    width: 110px;
+    height: 50px;
+    /*background-color: green;*/
+    box-shadow: 0px 0px 0px 0.5px blue;
+    margin-left: 25%;
+    border-radius: 6px;
+}
+.watch .heart{
+    width: 29%;
+    height: 90%;
+    float: left;
+    /*background-color: pink;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+}
+.watch .heard  i{
+    font-size: 100px;
+    color: blue;
+}
+.watch .text-heart{
+    width: 65%;
+    height: 90%;
+    float: left;
+}
+.watch .text-heart p{
+    text-align: center;
+    margin-top: 10px;
+    color: blue
+}
+.container-box{
+    width: 80%;
+    height: 220px;
+    /*background-color: pink;*/
+    float: left;
+    margin-left: 10%;
+    margin-top: 120px;
+}
+.container-box .box{
+    width: 23%;
+    height: 100%;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 2%;
+    box-shadow: 0px 0px 3px 1px grey;
+}
+.container-box .box .profile{
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+}
+.container-box .box .profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-box .box .txt{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+}
+.container-box .box .txt h1{
+    font-size: 20px;
+    text-align: center;
+}
+.container-box .box .txt h1 p{
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.6;
+}
+.container-footer{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    float:left;
+    margin-top: 100px;
+}
+.container-footer .footer{
+    width: 80%;
+    height: 100%;
+    /*background-color: pink;*/
+    margin: auto;
+}
+.container-footer .footer .box1{
+    width: 28%;
+    height: 90%;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 1%;
+}
+.container-footer .footer .box1 h1{
+    font-size: 25px;
+    color: white;
+    margin-top: 24%;
+    opacity: 0.8;
+}
+.container-footer .footer .box1 h1 p{
+    font-size: 15px;
+    color: white;
+}
+.container-footer .footer .box2{
+    width: 20%;
+    height: 90%;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 1%;
+}
+.container-footer .footer .box2 h1{
+    font-size: 25px;
+    color: white;
+    margin-top: 34%;
+    opacity: 0.8;
+    margin-left: 20px;
+}
+.container-footer .footer .box2 h1 p a{
+    font-size: 17px;
+    color: white;
+    padding: 20px;
+}
+.container-footer .footer .box3{
+    width: 20%;
+    height: 90%;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 1%
+}
+.container-footer .footer .box3 h1{
+    font-size: 25px;
+    color: white;
+    margin-top: 34%;
+    opacity: 0.8;
+    margin-left: 20px;
+}
+.container-footer .footer .box3 h1 p a{
+    font-size: 17px;
+    color: white;
+    padding: 20px;
+}
+.container-footer .footer .box4{
+    width: 28%;
+    height: 90%;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 1%;
+}
+.container-footer .footer .box4 h1{
+    font-size: 18px;
+    margin-top: 25%;
+    color: white;
+    opacity: 0.8;
+    margin-left: 20px;
+}
+.container-footer .footer .box4 h1 p a{
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+}
+.container-footer .footer .copyright{
+    width: 80%;
+    height: 7%;
+    /*background-color: green;*/
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.container-footer .footer .copyright p{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .container-full{
+        position: relative;
+    }
+    .container-full .header .menu{
+        transform: translateY(80px);
+        position: absolute;
+        width: 100%;
+        background-color: black;
+        height: 550px;
+        margin: 0px 0px;
+        display: none;
+    }
+    .container-full .header .menu a{
+        text-align: center;
+        font-size: 30px;
+
+    }
+    .container-full .header {
+        background-color: white;
+    }
+    .container-full .header .logo h1{
+        color: black;
+       
+    }
+    .container-full .header .menu ul li{
+        float: none;
+    }
+    .icon{
+        transform: translateX(270px);
+    }
+    .icon .fa-bars{
+        display: block;
+        color: black;
+    }
+    /* or #icon{
+        display: block;
+    }*/
+    .icon .fa-right-to-bracket{
+        color: black;
+        margin-left: 25px;
+    }
+    .icon .fa-user-plus{
+        color: black;
+        margin-left: 25px;
+    }
+    .container-full .header .logo h1{
+        font-size: 17px;
+    }
+    /*.middle-container{
+      
+    }*/
+    .middle-container .icon1{
+        margin: 0;
+        transform: translateX(440px);
+        margin-top: 100px;
+    }
+    .middle-container .icon2{
+        transform: translateX(-35px);
+        margin-top: 101px;
+    }
+    .middle-container .change{
+        margin-left: 60px;
+    }
+    .selling-ads{
+        transform: translateY(-430px);
+    }
+    .selling-ads .Title p{
+        font-size: 17px;
+    }
+    .selling-ads .Title h1{
+        font-size: 37px;
+    }
+    .selling-ads .shoes-selling .pic{
+        width: 100%;
+        margin-top: 20%;
+    }
+    .selling-ads .ads{
+        transform: translateY(1630px);
+        height: 120px;
+    }
+    .selling-ads .iconslider{
+        transform: translateY(245px);
+        margin: 140px;
+    }
+    .iconslider .i{
+        width: 10px;
+        height: 10px;
+    }
+    .content1{
+        transform: translateY(600px);
+    }
+    .content1 .content-tittle{
+        width: 50%;
+    }
+    .content1 .content-tittle h1{ 
+        font-size: 20px;
+    }
+    .content1 .content-selling{
+        transform: translateY(-550px);
+    }
+    .content1 .content-selling .fashion1{
+        margin-top: 450px;
+        float: left;
+    }
+    .content1 .content-selling .fashion1 .f1{
+        width: 43%;
+        margin-top: 30%;
+        float: left;
+    }
+    .content1 .content-selling .fashion1 .f1 h1{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .content1 .content-selling .fashion1 .f1 p{
+        font-size: 15px;
+    }
+    .electric-selling{
+        transform: translateY(1400px);
+
+    }
+    .electric-selling .electric-tittle{
+        width: 75%;
+    }
+    .electric-selling .electric-tittle h1{
+        font-size: 22px;
+    }
+    .electric-selling .content-electric .e1{
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+    .electric-selling .content-electric{
+        margin-top: 500px;
+        transform: translateY(-480px);
+    }
+    .electric-selling .content-electric .e1 .image{
+        width: 45%;
+        float: left;
+    }
+    .content-electric .e1 .price{
+        width: 45%;
+        float: left; 
+    }
+    .electric-selling .content-electric .e1 .image img{
+        width: 100%;
+    }
+    .electric-selling .content-electric .e1 .price h1{
+        font-size: 15px;
+        
+    }
+    .content1-electric{
+        transform: translateY(0px);
+        width: 100%;
+    }
+    .content1-electric .left-content {
+        width: 49%;
+        height: 90%;
+    }
+    .content1-electric .left-content img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .content1-electric .right-content {
+        width: 49%;
+        height: 90%;    
+    }
+    .content1-electric .right-content img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .lastshoes-selling{
+        transform: translateY(2300px);
+    }
+    .lastshoes-selling .shoes-tittle{
+        width: 80%;
+    }
+    .lastshoes-selling .shoes-tittle h1{
+        font-size: 25px;
+    }
+    .lastshoes-selling .pro1{
+        width: 100%;
+        margin-top: 350px;
+        transform: translateY(-350px);
+    }
+    .lastshoes-selling .pro1 .s1{
+        width: 100%;
+        float: left;
+    }
+    .lastshoes-selling .pro1 .s1 .value{
+        width: 40%;
+        float: left;
+        
+    }
+    .lastshoes-selling .pro1 .s1 .sh{
+        width: 50%;
+        float: left;
+    }
+    .watch{
+        margin-left: 14%;
+    }
+    .container-box{
+        transform: translateY(3000px);
+    }
+    .container-box .box{
+        width: 47%;
+        float: left;
+        margin-top: 10%;
+        margin-left: 3%;
+    }
+    .container-footer{
+        transform: translateY(3300px);
+        overflow: hidden;
+        height: 1300px;
+    }
+    .container-footer .footer{ 
+        width: 100%;
+    }
+    .container-footer .footer .box1{
+        width: 100%;
+        float: left;
+        margin-left: 20%;
+        margin-top: 0px;
+        height: auto;
+    }
+    .container-footer .footer .box1 h1{
+        font-size: 20px;
+    }
+    .container-footer .footer .box1 h1 p{
+        font-size: 15px;
+    }
+    .container-footer .footer .box2{
+        width: 100%;
+        float: left;
+        margin-left: 17%;
+        height: auto;
+        transform: translateY(-140px);
+    }
+    .container-footer .footer .box2 h1{
+        font-size: 20px;
+    }
+    .container-footer .footer .box2 h1 p a{
+        font-size: 15px;
+    }
+    .container-footer .footer .box3{
+        width: 100%;
+        float: left;
+        margin-left: 17%;
+        height: auto;
+        transform: translateY(-250px);
+    }
+    .container-footer .footer .box3 h1{
+        font-size: 20px;
+    }
+    .container-footer .footer .box3 h1 p a{
+        font-size: 15px;
+    }
+    .container-footer .footer .box4{
+        width: 100%;
+        float: left;
+        margin-left: 17%;
+        height: auto;
+        transform: translateY(-350px);
+    }
+    .container-footer .footer .box4 h1{
+        font-size: 20px;
+    }
+    .container-footer .footer .box4 h1 p {
+        font-size: 15px;
+    }
+    .copyright{
+        transform: translateY(-300px);
+    }
+   
+}

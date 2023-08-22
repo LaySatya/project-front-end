@@ -1,3 +1,4 @@
+
 .container-full{
     width: 100%;
     height: 80px;
@@ -913,6 +914,9 @@
     }
     .copyright{
         transform: translateY(-300px);
+    }
+    body{
+        overflow: auto;
     }
    
 }
